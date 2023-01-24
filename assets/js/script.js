@@ -1,21 +1,29 @@
-// Start Quiz Section
-const start = document.querySelector    
+// HighScore Section 
+let scores = document.querySelector(".scores");
 
+// Timer Section 
+let index = 0;
+let time = 0;
+let interval = 0;
+let timer = document.querySelector(".timer");
 
+// Coding Quiz Challenge Scetion
+let start = document.querySelector(".start");
+let wrapper = document.querySelector(".wrapper");
 
+//Questions Section 
+let choices = document.querySelector(".choices");
 
+let win = document.querySelector(".feedaback")
+let lose = document.querySelector(".feedaback")
 
-
-
-//var win = document.querySelector(".win");
-//var lose = document.querySelector(".lose");
-//var timerElement = document.querySelector(".timer-count");
-
-
-const start = document.querySelector(".start");
 
 
 // Click through the 'Start Quiz' button
-start.addEventListener("start", () => { 
-    console.log(start)
-});
+// start.addEventListener("start", () => { 
+//     //check answer
+//     if choiceNo === QUIZ[index].answer) {
+
+//     }
+//     console.log(startQuiz)
+// });
