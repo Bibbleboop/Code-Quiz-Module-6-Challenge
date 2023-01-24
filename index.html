@@ -10,10 +10,13 @@
   </head>
 
   <body>
+<!--          Main page HighScore Top Left         -->
     <div class="scores"><a href="highscores.html">View Highscores</a></div>
-
+    
+<!--          Main page Timer Top Right            -->
     <div class="timer">Time: <span id="time">0</span></div>
 
+<!--          Main page Quiz Challenge Center      -->
     <div class="wrapper">
       <div id="start-screen" class="start">
         <h1>Coding Quiz Challenge</h1>
@@ -23,9 +26,9 @@
           score/time by ten seconds!
         </p>
         <a href="../assets/js/questions.js"><button id="start">Start Quiz</button></a>
-<!--<button id="start">Start Quiz<a href="questions.js"></a></button>-->
       </div>
 
+<!--                Questions Section             -->
       <div id="questions" class="hide">
         <h2 id="question-title"></h2>
         <div id="choices" class="choices"></div>
@@ -33,6 +36,8 @@
 
       <div id="end-screen" class="hide">
         <h2>All done!</h2>
+
+<!--                  Score Section               -->
         <p>Your final score is <span id="final-score"></span>.</p>
         <p>
           Enter initials: <input type="text" id="initials" max="3" />
@@ -40,6 +45,7 @@
         </p>
       </div>
 
+<!--                 Feedback Section               -->
       <div id="feedback" class="feedback hide"></div>
     </div>
 
