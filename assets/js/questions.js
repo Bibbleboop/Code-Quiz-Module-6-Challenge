@@ -1,3 +1,7 @@
+
+
+
+// Function to select 
 let QUIZ =[{
     question: "How do I make a quiz in javascipt?",
     choice1: "Not sure ... Yet",
