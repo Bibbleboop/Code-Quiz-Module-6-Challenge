@@ -1,5 +1,7 @@
 // HighScore Section 
-let scores = document.querySelector(".scores");
+let highScores = document.querySelector(".high-scores");
+
+
 
 // Timer Section 
 let index = 0;
@@ -14,8 +16,8 @@ let wrapper = document.querySelector(".wrapper");
 //Questions Section 
 let choices = document.querySelector(".choices");
 
-let win = document.querySelector(".feedaback")
-let lose = document.querySelector(".feedaback")
+let win = document.querySelector(".feedback")
+let lose = document.querySelector(".feedback")
 
 
 
@@ -27,3 +29,4 @@ let lose = document.querySelector(".feedaback")
 //     }
 //     console.log(startQuiz)
 // });
+
