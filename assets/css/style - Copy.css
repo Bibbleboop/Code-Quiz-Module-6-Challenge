@@ -1,0 +1,202 @@
+/*  Global Settings  */
+* {
+  box-sizing: border-box;
+background-color: #d2afff;
+  
+  
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.container2 { 
+  position: relative; 
+  text-align: left;
+  font-size: 40px;
+  color: grey;
+}
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  border: orange;
+  padding: blue;
+  left: 16px;
+}
+/* Column Styles*/
+.middle {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  height: 20px;
+  padding: 50px;
+  margin: 15px;
+}
+
+/*Nested Column Styles */
+.top {
+  height: 50px; 
+  background-color: blueviolet;
+  display:flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+/*Nested Column Styles */
+.top {
+  height: 50px; 
+  background-color: blueviolet;
+  display:flex; 
+  align-items: center; 
+  justify-content: center;
+}
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "main main"
+  "main main"
+  "webApp2 webApp3"
+  "webApp4 webApp5"
+  ;
+}
+.banner {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33%;
+
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 25px;
+}
+
+.profile {
+  width: 80px;
+} */
+
+.flexitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+
+.webApp1 {
+  /* height: 50%; */
+  max-width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  /* background-image: url("../images/02-hero-bg.jpg"); */
+}
+
+.webApp2 {
+  height: 30%;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* background-image: url("../images/02-portfolio-1.jpg"); */
+}
+
+.webApp3 {
+  height: 30%;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* background-image: url("../images/02-portfolio-3.jpg"); */
+}
+
+.webApp4 {
+  height: 30%;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* background-image: url("../images/02-portfolio-4.jpg"); */
+}
+
+.webApp5 {
+  height: 6px;
+  width: 8px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  /* background-image: url("../images/02-run-buddy.jpg"); */
+}
+
+p {
+  margin: 0;
+}
+/* Media Query Mobile*/
+@media (max-width: 688px) {
+p {
+  font-size: 1.25rem;
+} 
+}
+
+
+/* Media Query Tablet*/
+@media (min-width: 992px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  } 
+  }
+
+
+  /* Media Query Laptop*/
+  @media (min-width: 1072px) {
+    p {
+      font-size: 1.5rem;
+      line-height: 1.5;
+    } 
+    }
+  
+
+
+
+  /* Media Query Desktop*/
+  @media (min-width: 1312px) {
+    p {
+      font-size: 1.5rem;
+      line-height: 1.5;
+    } 
+    }
+  
