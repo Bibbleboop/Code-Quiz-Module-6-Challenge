@@ -25,7 +25,8 @@
           limit. Keep in mind that incorrect answers will penalize your
           score/time by ten seconds!
         </p>
-        <a href="/assets/js/questions.js"><button id="start">Start Quiz</button></a>
+        <button id "start-button"> Start Quiz</button>
+        <!-- <a href="/assets/js/questions.js"><button id="start">Start Quiz</button></a> -->
       </div>
 
 <!--                Questions Section             -->
@@ -34,10 +35,27 @@
         <div id="choices" class="choices"></div>
       </div>
 
+      <div class="correct">
+        <h2> Correct Answer !!</h2>
+      </div>
+      <div class="incorrect">
+        <h2> Wrong Answer. Minus 10 seconds !!</h2>
+      </div>
+      
       <div id="end-screen" class="hide">
-        <h2>All done!</h2>
+        <h2> You lose! </h2> -->
+      <p> The final score is <span id="final-score"></span></p>
+      
+        <p> Save your score: Enter Your Initials:
+          <input type="text" id="initials" max="3" >
+          <a href="highscores.html">
+         <button id="submit">Submit</button>
+       </p>
+     </div
 
-<!--                  Score Section               -->
+      <div id="end-screen-lose" class="hide">
+        <h2>All done! You lose! </h2>
+<!--                 Score Section               -->
         <p>Your final score is <span id="final-score"></span>.</p>
         <p>
           Enter initials: <input type="text" id="initials" max="3" />
@@ -46,12 +64,11 @@
       </div>
 
 <!--                 Feedback Section               -->
-      <div id="feedback" class="feedback hide"></div>
+      <div id="feedback" class="feedback"></div>
     </div>
 
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/scores.js"></script>
-    <script src="./assets/js/script.js"></script>
   </body>
 </html>
