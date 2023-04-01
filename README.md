@@ -9,7 +9,8 @@ This responsive user interface ......   As this app runs in the browser....
 
 # FEATURES
 
-The quiz uses dynamically updated HTML and CSS powered by JavaScript.
+
+Credit for Questions : //Source for questions : https://www.interviewbit.com/javascript-mcq/
 
 
 
