@@ -1,4 +1,5 @@
 //Source for questions : https://www.interviewbit.com/javascript-mcq/
+let questionNumber = 0;
 const questions = [
 {
 question: "Javascript is an _______ language?",
@@ -25,29 +26,4 @@ question: "What keyword is used to check whether a given property is valid or no
 options: ["in", "is in", "exists", "lies"],
 answer: "in"
 },
-{
-question: "When an operator's value is NULL, the typeof returned by the unary operator is:",
-options: ["Boolean", "Undefined", "Object", "Integer"],
-answer: "Object"
-},
-{
-question: "Which of the following are closures in Javascript?",
-options: ["Object", "Variables", "Functions", "All the above"],
-answer: "All the above"
-},
-{
-question: "Which of the following is not a Javascript framework?",
-options: ["Node", "React", "Cassandra", "Vue"],
-answer: "Cassandra"
-},
-{
-question: "What keyword is used to declare an asynchronous function in Javascript?",
-options: ["async", "await", "setTimeout", "None of the above"],
-answer: "async"
-},
-{
-question: "How to stop an interval timer in Javascript?",
-options: ["clearInterval", "clearTime", "intervalOver", "None of the above"],
-answer: "clearInterval"
-}
 ]
